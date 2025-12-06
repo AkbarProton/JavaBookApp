@@ -1,13 +1,14 @@
 package org.example;
-
-import DatabaseConfig.AuthorBookMappingTable.AuthorBookMappingTableOperations;
 import DatabaseConfig.AuthorsTable.AuthorsTableInitializer;
 import DatabaseConfig.AuthorsTable.AuthorsTableOperations;
 import DatabaseConfig.BooksTable.BooksTableInitializer;
-import DatabaseConfig.BooksTable.BooksTableOperations;
+import Networking.ConnectionTestingConstants;
+import Networking.client.Client;
+import Networking.server.Server;
 import models.items.Book;
 import models.people.Author;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -103,5 +104,16 @@ public class Main {
 //        AuthorsTableOperations.clearDataBase();
 //        BooksTableOperations.clearDataBase();
 //        AuthorBookMappingTableOperations.clearDataBase();
+
+
+
+
+        //Server client interaction
+        Server bookAppServer = new Server();
+        try{
+            bookAppServer.runServer(ConnectionTestingConstants.port);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

@@ -19,7 +19,8 @@ public class DataBaseConnectorConfigurator {
             e.printStackTrace(); //Getting stack trace for better understanding of the error
             return null; //In case if no connection was made
         } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
+            e.getMessage();
         }
+        return null;
     }
 }
