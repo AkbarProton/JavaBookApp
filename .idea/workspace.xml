@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d69a5b-94c5-41ea-ab0a-2ed9bd7ed53f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShikiStyleUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShikiStyleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShikiStyleUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764618343898</updated>
       <workItem from="1765042167196" duration="4584000" />
-      <workItem from="1765567881317" duration="3043000" />
+      <workItem from="1765567881317" duration="3460000" />
     </task>
     <servers />
   </component>
