@@ -26,15 +26,6 @@ public class Client {
 
             input = new DataInputStream(clientSocket.getInputStream()); //Getting input from the server
             output = new DataOutputStream(clientSocket.getOutputStream()); //Getting output to the server
-            while(true){
-//                output.writeUTF("Hello Server! 1111");
-//                System.out.println(input.readUTF());
-//
-//
-//
-//                Thread.sleep(1000);
-
-            }
         } catch(IOException e){}
         catch(Exception e){}
     }

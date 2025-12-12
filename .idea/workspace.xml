@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d69a5b-94c5-41ea-ab0a-2ed9bd7ed53f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Networking/CommandsStatics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Networking/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Networking/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseConfig/BooksTable/BooksTableOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseConfig/BooksTable/BooksTableOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseConfig/DataBaseConnectorConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseConfig/DataBaseConnectorConfigurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Networking/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Networking/client/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/databaseTables/BookApp.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databaseTables/BookApp.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +30,12 @@
     &quot;assignee&quot;: &quot;Protonm0KEN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AkbarProton/JavaBookApp.git&quot;,
-    &quot;accountId&quot;: &quot;1bfb00e8-f397-4cb0-ad4f-6746443497b0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AkbarProton/JavaBookApp.git",
+    "accountId": "86cc68fb-346a-48f2-a3b7-c7fe6c5b3cca"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -59,10 +52,18 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/gamer/OneDrive/Рабочий стол/JavaBookProject/projectRebuild/BookApp/src/main/java/models",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/gamer/OneDrive/Рабочий стол/JavaBookProject/projectRebuild/BookApp/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "coverage"
+    "settings.editor.selected.configurable": "coverage",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,6 +75,27 @@
       <recent name="DatabaseConfig" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BookApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BookApp" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c9d69a5b-94c5-41ea-ab0a-2ed9bd7ed53f" name="Changes" comment="" />
@@ -81,7 +103,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764618343898</updated>
+      <workItem from="1765042167196" duration="4584000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
