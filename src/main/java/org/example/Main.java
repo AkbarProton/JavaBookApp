@@ -110,10 +110,30 @@ public class Main {
 
         //Server client interaction
         Server bookAppServer = new Server();
-        try{
-            bookAppServer.runServer(ConnectionTestingConstants.port);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+            new Thread(() -> {
+                try {
+                    bookAppServer.runServer(ConnectionTestingConstants.port);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }).start();
+
+
+            // Give server a moment to start
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            // --- Create four clients ---
+            Client client1 = new Client("localhost", ConnectionTestingConstants.port);
+            Client client2 = new Client("localhost", ConnectionTestingConstants.port);
+            Client client3 = new Client("localhost", ConnectionTestingConstants.port);
+            Client client4 = new Client("localhost", ConnectionTestingConstants.port);
+
+            System.out.println("Four clients connected to the server.");
+
+
     }
 }
