@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d69a5b-94c5-41ea-ab0a-2ed9bd7ed53f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShikiStyleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShikiStyleUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Networking/CommandsStatics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Networking/CommandsStatics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Networking/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Networking/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShikiStyleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BookAppUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BookAppUI.executor": "Run",
     "Application.Launcher.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainApp.executor": "Run",
@@ -118,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764618343898</updated>
       <workItem from="1765042167196" duration="4584000" />
-      <workItem from="1765567881317" duration="3460000" />
+      <workItem from="1765567881317" duration="5856000" />
     </task>
     <servers />
   </component>

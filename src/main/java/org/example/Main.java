@@ -8,6 +8,7 @@ import Networking.server.Server;
 import models.items.Book;
 import models.people.Author;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -90,7 +91,7 @@ public class Main {
 //            throw e;
 //        }
 //    }
-    public static void main( String[] args ) throws SQLException {
+    public static void main( String[] args ) throws SQLException, IOException {
 //
 //        System.out.println("Starting database initialization...");
 //
@@ -109,51 +110,6 @@ public class Main {
 //
 //
         Client thisClient = new Client(ConnectionTestingConstants.serverIP, ConnectionTestingConstants.port);
-
-
-
-
-        //Server client interaction
-        Server bookAppServer = new Server();
-            new Thread(() -> {
-                try {
-                    bookAppServer.runServer(ConnectionTestingConstants.port);
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
-            }).start();
-
-
-            // Give server a moment to start
-            try {
-                Thread.sleep(500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            // --- Create four clients ---
-            Client client1 = new Client(ConnectionTestingConstants.serverIP, ConnectionTestingConstants.port);
-            Client client2 = new Client(ConnectionTestingConstants.serverIP, ConnectionTestingConstants.port);
-            Client client3 = new Client(ConnectionTestingConstants.serverIP, ConnectionTestingConstants.port);
-            Client client4 = new Client(ConnectionTestingConstants.serverIP, ConnectionTestingConstants.port);
-
-            System.out.println("Four clients connected to the server.");
-        try{
-            // 1. Run a simple command test
-            ArrayList<Book> books = thisClient.getAllBooks();
-            System.out.println("Received " + books.size() + " books from the Server.");
-
-            // 2. Run the specific test command
-            Book book = thisClient.getBookByIsbn("978-0134444555");
-            if (book != null) {
-                System.out.println("Book found: " + book.getTitle());
-            } else {
-                System.out.println("Book not found.");
-            }
-
-        } catch (IOException e) {
-            System.err.println("Client IO Error during operation: " + e.getMessage());
-            throw new RuntimeException(e);
-        }
+        BookAppUI.main(args);
     }
 }
